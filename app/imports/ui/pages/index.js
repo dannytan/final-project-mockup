@@ -14,4 +14,6 @@ import './landing-page.js';
 
 import './categories-page.html';
 
+import './start-a-club-page.html';
+
 

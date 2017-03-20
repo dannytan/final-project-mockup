@@ -1,0 +1,23 @@
+<template name="Start_A_Club_Page">
+  <div class="light-grey-background">
+    <div class="ui landing container">
+      <div class="ui borderless center aligned segment">
+        <h1 style="padding-bottom: 30px">Propose your own idea for a club and get others to join along!</h1>
+
+        <form style="padding: 30px 250px" class="ui form">
+          <div class="field">
+            {{> Text_Form_Control label="Name" placeholder="Club Name" required=true errorMessage=(fieldError "name")}}
+          </div>
+
+          <div class="field">
+            {{> TextArea_Form_Control label="Description" placeholder="Write a description here..." errorMessage=(fieldError "description")}}
+          </div>
+
+          <button class="ui submit button"><i class="plus icon"></i>Submit</button>
+
+          <p>See a list of all club proposals here.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</template>
