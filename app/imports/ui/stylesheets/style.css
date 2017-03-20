@@ -29,6 +29,11 @@ a {
   padding: 15px;
 }
 
+.ui.search.button {
+  background-color: #007C34;
+  color: white;
+}
+
 .light-grey-background {
   background-color: #E3E3E5;
 }
@@ -36,3 +41,4 @@ a {
 .ui.three.column.grid {
   padding-top: 30px;
 }
+

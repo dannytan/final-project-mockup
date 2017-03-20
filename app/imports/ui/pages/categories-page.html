@@ -1,0 +1,35 @@
+<template name="Categories_Page">
+  <div class="light-grey-background">
+    <div class="ui landing container">
+      <div class="ui borderless center aligned segment">
+        <h1 style="padding-bottom: 30px">Match your likes and interests with fellow students and faculty.</h1>
+
+        <div class="ui left icon action input">
+          <i class="search icon"></i>
+          <input type="text" placeholder="Enter keyword(s)">
+          <div class="ui search button">Search</div>
+        </div>
+
+        <div style="padding-top: 20px" class="ui horizontal divider">
+          Or
+        </div>
+
+        <form style="padding: 30px 250px" class="ui form">
+          <div class="field">
+            {{> Select_Form_Control label="Type" options=types errorMessage=(fieldError "types") multiple=true }}
+          </div>
+
+          <div class="field">
+            {{> Select_Form_Control label="Area(s) of Study" options=areas errorMessage=(fieldError "areas") multiple=true }}
+          </div>
+
+          <div class="field">
+            {{> Select_Form_Control label="Meeting Days" options=days errorMessage=(fieldError "days") multiple=true }}
+          </div>
+
+          <button class="ui start button">Search</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</template>
