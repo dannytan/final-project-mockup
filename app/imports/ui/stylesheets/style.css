@@ -15,7 +15,7 @@ a {
 }
 
 .ui.borderless.center.aligned.segment {
-  padding-top: 80px;
+  padding-top: 70px;
   padding-bottom: 10px;
   background-color: #E3E3E5;
   border: none;
@@ -31,4 +31,8 @@ a {
 
 .light-grey-background {
   background-color: #E3E3E5;
+}
+
+.ui.three.column.grid {
+  padding-top: 30px;
 }
