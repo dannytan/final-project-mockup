@@ -29,6 +29,12 @@ FlowRouter.route('/start-a-club', {
   },
 });
 
+FlowRouter.route('/contact-us', {
+  name: 'Contact_Us_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Contact_Us_Page' });
+  },
+});
 
 FlowRouter.route('/list', {
   name: 'List_Stuff_Page',

@@ -16,4 +16,4 @@ import './categories-page.html';
 
 import './start-a-club-page.html';
 
-
+import './contact-us-page.html';

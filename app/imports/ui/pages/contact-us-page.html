@@ -1,0 +1,30 @@
+<template name="Contact_Us_Page">
+  <div class="light-grey-background">
+    <div class="ui landing container">
+      <div class="ui borderless center aligned segment">
+        <h1 style="padding-bottom: 30px">Have a question or suggestion? Get in touch with us!</h1>
+
+        <form style="padding: 30px 250px" class="ui form">
+          <div class="field">
+            {{> Text_Form_Control label="First" placeholder="First Name" required=true errorMessage=(fieldError "first")}}
+          </div>
+
+          <div class="field">
+            {{> Text_Form_Control label="Last" placeholder="Last Name" required=true errorMessage=(fieldError "last")}}
+          </div>
+
+          <div class="field">
+            {{> Text_Form_Control label="Email" required=true errorMessage=(fieldError "email")}}
+          </div>
+
+          <div class="field">
+            {{> TextArea_Form_Control label="Message" required=true placeholder="Write a message here..." errorMessage=(fieldError "message")}}
+          </div>
+
+          <button class="ui submit button">Send Message</button>
+
+        </form>
+      </div>
+    </div>
+  </div>
+</template>
