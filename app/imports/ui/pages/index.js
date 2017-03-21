@@ -17,3 +17,5 @@ import './categories-page.html';
 import './start-a-club-page.html';
 
 import './contact-us-page.html';
+
+import './admin-home-page.html';
