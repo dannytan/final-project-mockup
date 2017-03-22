@@ -21,7 +21,7 @@
 ![](https://raw.githubusercontent.com/dannytan/final-project-mockup/master/doc/start-a-club-page.png)
 
 ## Contact Us Page'
-<p>The contact us page is just a standard page to allow the user to contact the admin of the site to report and bugs, problems, or suggest improvements to the site.</p>
+<p>The contact us page is just a standard page to allow the user to contact the admin of the site to report any bugs, problems, or suggest improvements to the site.</p>
 
 ![](https://raw.githubusercontent.com/dannytan/final-project-mockup/master/doc/contact-us-page.png)
 
